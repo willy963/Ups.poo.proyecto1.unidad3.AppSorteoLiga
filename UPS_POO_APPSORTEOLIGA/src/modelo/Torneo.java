@@ -28,8 +28,8 @@ public class Torneo implements Serializable {
     /** Crea un torneo con los 16 equipos iniciales de la liga. */
     public static Torneo crearLigaPorDefecto() throws NumeroEquiposInvalidoException {
         String[] nombres = {
-            "Águilas", "Tigres", "Leones", "Halcones", "Panteras", "Lobos", "Toros", "Cóndores",
-            "Jaguares", "Pumas", "Tiburones", "Dragones", "Gladiadores", "Titanes", "Vikingos", "Espartanos"
+            "Independiente del Valle", "Barcelona Sporting Club", "Club Sport Emelec", "Universidad Católica", "Sociedad Deportiva Aucas", "Macará", "Mushuc Runa", "Orense SC",
+            "Técnico Universitario", "Delfín SC", "Deportivo Cuenca", "Libertad FC", "Guayaquil City FC", "Leones FC", "Manta FC", "Nacional"
         };
         List<Equipo> lista = new ArrayList<>();
         for (String n : nombres) lista.add(new Equipo(n));
